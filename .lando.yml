@@ -1,0 +1,9 @@
+name: drupal-8
+recipe: drupal8
+config:
+  php: '7.2'
+  via: apache:2.4
+  webroot: docroot
+  database: mysql:5.7
+  drush: ^9
+  xdebug: false
